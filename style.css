@@ -1,57 +1,64 @@
-.picture{
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.picture {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.tushar{
-    display:block;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right:10%;
-    height: 50%;
-
+.tushar {
+  display: block;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 50%;
 }
 
-.slide{
-    height: 40%;
+.slide {
+  height: 40%;
 }
 
-.daksh{
-    padding-left: 8%;
+.daksh {
+  padding-left: 8%;
 }
 
-.margin-banner{
-    margin-top: 15vh;
+.margin-banner {
+  margin-top: 15vh;
 }
 
-.mitthu{
-    height: 60%;
-    width: 60%;
-    margin-left: 20%;
-    display: flex;
-    border-radius: 20%;
+.mitthu {
+  height: 60%;
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  border-radius: 20%;
 }
 
-.navbar{
-    height: 60%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    
+.navbar {
+  height: 60%;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
-.logo{
-    width: 50px;
-    cursor: pointer;
-
+.logo {
+  width: 50px;
+  cursor: pointer;
 }
 
-.card:hover{
-    transform:scale(1.11);
-    cursor: pointer;
+.card {
+  overflow: hidden;
 }
 
+.card,
+img {
+  transition: all ease 0.4s;
+  cursor: pointer;
+}
 
+.picture:hover {
+  transform: scale(1.1);
+}
 
+.photo-samples:hover {
+  transform: scale(1.19);
+}
